@@ -1,0 +1,22 @@
+{
+  "name": "ebay_like_project",
+  "version": "1.0.0",
+  "description": "task to build ebay-like page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadesuzarte/Ebay_like_project.git"
+  },
+  "author": "jade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadesuzarte/Ebay_like_project/issues"
+  },
+  "homepage": "https://github.com/jadesuzarte/Ebay_like_project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
