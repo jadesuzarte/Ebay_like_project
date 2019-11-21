@@ -22,28 +22,23 @@
 <body>
     <h2>Tell us what you're getting rid of!</h2>
     
-    <form  method="post" action="/advert">
-
-        <label for="exampleFormControlInput1">Email address</label>
+    <form name="form" method="post" action="http://localhost:8080/advert">
+<label for="exampleFormControlInput1">Email address</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-
-
+        <!-- 
         <label for="exampleFormControlSelect1">Condition</label>
         <select class="form-control" id="exampleFormControlSelect1">
             <option>New</option>
             <option>Used</option>
-        </select>
-
-
-        <label for="inputZip">Price</label>
+        </select> -->
+<label for="inputZip">Price</label>
         <input type="text" class="form-control" id="inputZip" placeholder="$">
-
-        <label for="exampleFormControlTextarea1">Product Description</label>
+ <label for="exampleFormControlTextarea1">Product Description</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <button event="Submit">Submit!</button>
 
-    </form>
+</form>
 
-    <button event="Submit">Submit!</button>
 </body>
 
 </html>

@@ -9,10 +9,8 @@ app.use(cors());
 app.use(express.static('public')); 
 app.use(express.static('views'));
 
+app.get('/', (req, res) => res.send("index"));
 
-// app.get('/advert', function (req, res) {
-//     console.log(req.body)
-// })
 app.post('/advert', function (req, res) {
     console.log(req.body)
     res.send(req.body)

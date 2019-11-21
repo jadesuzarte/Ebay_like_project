@@ -1,12 +1,12 @@
 // import Axios from "axios";
 
-$(document).ready(function () {
-const button = document.querySelector("button"); 
-const body =document.querySelector("body")
+// $(document).ready(function () {
+// const button = document.querySelector("button"); 
+// const body =document.querySelector("body")
 
-const form = document.querySelector("form")
-
-// var axios = require('axios');
+// const form = document.querySelector("form")
+// const port = 8080; 
+// // var axios = require('axios');
 
 
 // $("#button").click(event => {
@@ -29,17 +29,28 @@ const form = document.querySelector("form")
 
 
 });
+// const formAnswers = form.value
+// const form = document.querySelector("form")
+
+// $("button").click(event => {
+    
+//     console.log('working')
+//     event.preventDefault();
+//     axios.get("http://localhost:8080/advert").then(response => {
+//       console.log(response.data);
+// });
+//     });
 
 
-$("button").click(event => {
-    const form = document.querySelector("form")
-    console.log('working')
-    event.preventDefault();
-    axios.get('http://localhost:8080/advert').then(response => {
-      console.log(response.data)
-    //   $("body").append(`${form.input}`);
-    });
-  });
+
+
+
+
+//     axios.get('http://localhost:8080/advert').then(response => {
+//       console.log(response.data)
+//     //   $("body").append(`${form.input}`);
+//     });
+//   });
 
 
 
