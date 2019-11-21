@@ -14,37 +14,36 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!--javaScript with 'defer' so the browser knows to download your scripts after the HTML has been downloaded -->
     <script src="/main.js" defer="defer"></script>
+    <!-- axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Document</title>
 </head>
 
 <body>
     <h2>Tell us what you're getting rid of!</h2>
-    <form>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlSelect1">Condition</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-                <option>New</option>
-                <option>Used</option>
-            </select>
-        </div>
-        <div class="form-group col-md-2">
-            <label for="inputZip">Price</label>
-            <input type="text" class="form-control" id="inputZip" placeholder="$">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">Product Description</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+    
+    <form  method="post" action="/advert">
+
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
+
+        <label for="exampleFormControlSelect1">Condition</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>New</option>
+            <option>Used</option>
+        </select>
+
+
+        <label for="inputZip">Price</label>
+        <input type="text" class="form-control" id="inputZip" placeholder="$">
+
+        <label for="exampleFormControlTextarea1">Product Description</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
     </form>
-    <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Sumbit!
-            </label>
-          </div>
+
+    <button event="Submit">Submit!</button>
 </body>
 
 </html>
