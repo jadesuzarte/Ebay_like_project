@@ -11,33 +11,30 @@
     <!--css-->
     <link rel="stylesheet" href="/style.css">
     <!--jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!--javaScript with 'defer' so the browser knows to download your scripts after the HTML has been downloaded -->
-    <script src="/main.js" defer="defer"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
     <!-- axios -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <title>Document</title>
+    <title>Thrift Web</title>
 </head>
 
 <body>
     <h2>Tell us what you're getting rid of!</h2>
-    
-    <form name="form" method="post" action="http://localhost:8080/advert">
-<label for="exampleFormControlInput1">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        <!-- 
+
+    <form name="form" method="POST" action="/advert">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         <label for="exampleFormControlSelect1">Condition</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select name="condition" class="form-control" id="conditionSelector">
             <option>New</option>
             <option>Used</option>
-        </select> -->
-<label for="inputZip">Price</label>
-        <input type="text" class="form-control" id="inputZip" placeholder="$">
- <label for="exampleFormControlTextarea1">Product Description</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        <button event="Submit">Submit!</button>
-
-</form>
+        </select>
+        <label for="inputZip">Price</label>
+        <input name="price" type="text" class="form-control" id="price" placeholder="$">
+        <label for="exampleFormControlTextarea1">Product Description</label>
+        <textarea  name="description"class="form-control" id="description" rows="3"></textarea>
+        <!-- <button event="Submit">Submit!</button> -->
+        <input type="submit" />
+    </form>
 
 </body>
 

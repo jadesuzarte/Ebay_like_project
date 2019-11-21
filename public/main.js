@@ -28,7 +28,7 @@
 
 
 
-});
+// });
 // const formAnswers = form.value
 // const form = document.querySelector("form")
 
@@ -38,6 +38,7 @@
 //     event.preventDefault();
 //     axios.get("http://localhost:8080/advert").then(response => {
 //       console.log(response.data);
+// });
 // });
 //     });
 
