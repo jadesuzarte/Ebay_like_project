@@ -12,3 +12,17 @@ Create a good readme to document how you got there.
 Extra credit/bonus kudos/optional extra/crisp high five - have a back button on the mock-up to go back to the original form to edit details. You may really have to think about this one as to how data is passed about!!
 You will have a live code review with Ines/Dom on Friday to talk through your code and have a q&a about you thought process and approach.
 Good luck & don’t forget to look at documentation and other resources!"
+
+
+
+Steps: 
+1.Make folders and files 
+'views': html 
+'public': css, and js 
+'Ebay_like_project':all of the above and app.js 
+
+2. Write basic html and css files 
+
+3. get and post the form written in html on app.js 
+
+
