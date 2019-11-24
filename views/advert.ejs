@@ -6,19 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--css-->
-    <link rel="stylesheet" name="viewport" type="text/css" href="/public/advert.css">
-    <!--jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/advert.css">
     <title>Thrift Web</title>
 </head>
 <body> 
 <h1>Your ad:</h1>
-<h2><%= email %><br>
-<%=condition %><br>
-<%=price %><br>
-<%=description %>
-</h2>
-
+<h2><%= data.email %><br>
+<%= data.condition %><br>
+<%= data.price %><br>
+<%= data.description %></h2>
 
 </body>
 <footer>
